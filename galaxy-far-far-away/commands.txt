@@ -1,0 +1,92 @@
+Part I: Set the Scene
+----------------------
+
+1. mkdir death_star
+2. Cd death_star
+3. touch darth_vader.txt princess_leia.txt storm_trooper.txt
+4. Cd ..
+5. Mkdir Tatooine
+6. Cd Tatooine
+7. touch luke.txt ben_kenobi.txt
+8. kdir millenium_falcom
+9. cd millenium_falcom
+10. touch han_solo.txt chewbaca.txt
+
+Part II: mv - rename
+---------------------
+
+1. Cd ..
+2. mv ben_kenobi.txt obi_wan.txt
+
+Part III: cp - copy
+--------------------
+
+1. cp ~/Documents/git-github-and-terminal/galaxy-far-far-away/death_star/storm_trooper
+.txt .
+
+Part IV: mv - move
+-------------------
+
+1. Cd ~
+2. mv ~/Documents/git-github-and-terminal/galaxy-far-far-away/tatooine/luke.txt ~/Documents/git-github-and-terminal/galaxy-far-far-away/tatooine/millenium_falcom
+3. mv ~/Documents/git-github-and-terminal/galaxy-far-far-away/tatooine/obi_wan.txt ~/Documents/git-github-and-terminal/galaxy-far-far-away/tatooine/millenium_falcom
+4. mv ~/Documents/git-github-and-terminal/galaxy-far-far-away/tatooine/millenium_falcom ~/Documents/git-github-and-terminal/galaxy-far-far-away
+5. mv ~/Documents/git-github-and-terminal/galaxy-far-far-away/millenium_falcom ~/Documents/git-github-and-terminal/galaxy-far-far-away/death_star 
+6. cd '/Users/ahincapie/Documents/git-github-and-terminal/galaxy-far-far-away/death_star'
+7. mv princess_leia.txt ~/Documents/git-github-and-terminal/galaxy-far-far-away/deat
+h_star/millenium_falcom
+
+
+Part V:
+-------- 
+
+1. cd millenium_falcom
+2. rm -r  obi_wan.txt
+
+Part VI:
+---------
+
+1. mkdir yavin_4
+2. cd yavin_4
+3. mv ~/Documents/git-github-and-terminal/galaxy-far-far-away/death_star/millenium_falcom .
+4. cd millenium_falcom
+5. mv princess_leia.txt ~/Documents/git-github-and-terminal/galaxy-far-far-away/yavin_4
+6. mv luke.txt ~/Documents/git-github-and-terminal/galaxy-far-far-away/yavin_4/x_wing
+7. cd ..
+8. mv millenium_falcom ~/Documents/git-github-and-terminal/galaxy-far-far-away
+9. mv x_wing ~/Documents/git-github-and-terminal/galaxy-far-far-away
+10. cd ..
+11. cd death_star
+12. mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3
+13. mv darth_vader.txt ~/Documents/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_1
+14. cp storm_trooper.txt ~/Documents/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_2
+15. cp storm_trooper.txt ~/Documents/git-github-and-terminal/galaxy-far-far-away/death_star/tie_fighter_3
+16. mv tie_fighter_1 ~/Documents/git-github-and-terminal/galaxy-far-far-away
+17. mv tie_fighter_2 ~/Documents/git-github-and-terminal/galaxy-far-far-away
+18. mv tie_fighter_3 ~/Documents/git-github-and-terminal/galaxy-far-far-away
+
+Part VII: rm -r (Remove directories and content)
+-------------------------------------------------
+
+1. cd ..
+2. rm -r tie_fighter_2 tie_fighter_3
+
+Part VIII:
+-----------
+
+1. cd x_wing
+2. touch the_force.txt
+3. cd ..
+4. rm -r death_star 
+5. mv x_wing ~/Documents/git-github-and-terminal/galaxy-far-far-away/yavin_
+4
+6. mv millenium_falcom ~/Documents/git-github-and-terminal/galaxy-far-far-away/yavin_4
+
+
+
+
+
+
+
+
+
